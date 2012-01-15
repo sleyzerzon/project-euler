@@ -6,7 +6,6 @@ public class Prob2 {
 		int fib = 0;
 		do{
 			if (fib % 2 == 1){
-				System.out.println(fib);
 				result = result + fib;
 			}
 			fib = fibonaci(n);
