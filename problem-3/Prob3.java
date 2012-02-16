@@ -9,14 +9,14 @@ public class Prob3 {
 	}
 	
 	public static SortedSet<Long> primeFactor(long arg){
-		SortedSet<Long> primeFactorSet = new TreeSet<Long>();
+	    SortedSet<Long> primeFactorSet = new TreeSet<Long>();
 	    for (int i = 2; i <= arg; i++) {
 	    	while (arg % i == 0) {
 	    		primeFactorSet.add((long) i);
-			  	arg = arg / i;
-		  	}
-      }
-		return primeFactorSet;
+		  	arg = arg / i;
+	  	}
+      	     }
+	     return primeFactorSet;
 	}
 	
 	public static long largestPrimeFactor(long arg){
