@@ -1,4 +1,3 @@
-
 import java.util.SortedMap;
 import java.util.TreeMap;
 
@@ -14,7 +13,6 @@ public class Prob4 {
 			for (int j = 999; j  >= 100; j--) {
 				if (isPalindrom(i * j)) {
 					tmpMap.put(i*j, i*j+" made by "+ i +" * "+ j);
-					break;
 				}
 			}
 		}
