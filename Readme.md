@@ -1,5 +1,4 @@
-# Project Euler solution
+Solution of the Project Euler's problems and some extra interview questions found on the internet.
 
-Solution of the Project Euler's problems implemented in Java & Clojure.
+Feel free to add your solutions implemented with any language or more extra questions.
 
-I'am learning Clojure with this project :D
