@@ -1,1 +1,0 @@
-Create a pascal triangle
